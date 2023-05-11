@@ -1,0 +1,27 @@
+.clicked{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background: #9FAAB5;
+    border: 1px solid #7AA7C7;
+    border-radius: 3px;
+}
+.notClicked{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background: #E1ECF4;
+    border: 1px solid #7AA7C7;
+    border-radius: 3px;
+}
+
+
+.teclado {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 650px;
+    height: 100px;
+}
