@@ -9,10 +9,12 @@ export default function Teclado (){
     function letraSelecionada(i){
         
         setClicked([...clicked,i]);
+        console.log(clicked)
+    
     }
 
     return (
-        <div>
+        <div className='teclado'>
             {alfabeto.map((letras,indice) => (
             <button disabled = {clicked.includes(indice) ? true  :  false} key = {letras} onClick= {() => letraSelecionada(indice)} className={clicked.includes(indice) ? "clicked"  :  "notClicked"} >{letras} </button>
             ))}
